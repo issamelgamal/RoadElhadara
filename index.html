@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Elhadra Pharmacy </title>
+    <link rel="icon" type="imgaex/icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .section {
+            height: 600px; /* لتوضيح التنقل بين الأقسام */
+            border: 1px solid #ccc;
+            margin: 20px 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear "></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#129c19"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9f4"></li>
+                    <li data-color="#4caf50"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random background</h4>
+                <div class="random-backgrounds">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no"data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>ToolTip</h4>
+                <div class="Show-toolTip">
+                    <span class="yes active" data-display="Show">Show</span>
+                    <span class="no"data-display="Hide">Hide</span>
+                </div>
+            </div>
+            <button class="rest-options">Reset All Options</button>
+        </div>
+    </div>
+    <!-- end setting box -->
+    <!-- start Nav Bullets  -->
+    <div class="nav-bullets">
+        <div class="bullet"data-section=".Home">
+            <div class="tooltip">Home</div>
+        </div>
+        <div class="bullet"data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet"data-section=".services-section">
+            <div class="tooltip">Services</div>
+        </div>
+        <div class="bullet"data-section=".timeLine">
+            <div class="tooltip">Working time</div>
+        </div>
+        <div class="bullet"data-section=".Staff">
+            <div class="tooltip">Staff</div>
+        </div>
+        <div class="bullet"data-section=".contact">
+            <div class="tooltip">Contact Us</div>
+        </div>
+    </div>
+    <!-- end Nav Bullets  -->
+    <div class="landing-page Home">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Road Elhadara</div>
+                <div class="links-container">
+                    <ul class="links ">
+                        <li  ><a class="active" href="#" data-section=".Home">Home </a></li>
+                        <li  ><a href="#"data-section=".about-us">About US</a></li>
+                        <li><a href="#"data-section=".services-section">services</a></li>
+                        <li><a href="#"data-section=".timeLine"> working time</a></li>
+                        <li><a href="#"data-section=".Staff">Staff</a></li>
+                        <li><a href="#"data-section=".contact">Contact Us</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="introduction-text">
+            <h1>Your Local Neighborhood <span>Pharmacy</span> </h1>
+            <p><span>khabora </span> ,Oman</p>
+        </div>
+    </div>
+    <!-- start about us -->
+    <div class="container">
+        <h2 class="section-name">About Us</h2>
+        <div class="about-us">
+            <div class="info-box">
+                <h2>Road Elhadara Pharmacy </h2>
+                <p> Established in 2024 in Khabora, Oman, Road Elhadara Pharmacy is dedicated to providing the latest and most effective medicines and cosmetics. Our pharmacy is committed to ensuring the health and well-being of our community by offering a wide range of high-quality products and exceptional customer service. Our knowledgeable staff is always ready to assist you with your healthcare needs, ensuring you receive the best possible care and advice.</p>
+            </div>
+            <div class="image-box">
+                <img src="imgs/pharmacy2.jpg" alt="" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <!-- End about us -->
+    <!-- start services section -->
+    <div class="container">
+        <div class="services-section">
+            <h2 class="section-name">Services</h2>
+            <h1>We Sell <span>Medicines</span> and <span>Cosmetics</span></h1>
+            <div class="gallery">
+                <div class="box">
+                    <img src="imgs/med1.webp" alt="Medicine" loading="lazy">
+                    <h3>Medicine</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/med2.webp" alt="Medicine" loading="lazy">
+                    <h3>Medicine</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/med3.webp" alt="Medicine" loading="lazy">
+                    <h3>Medicine</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/med4.webp" alt="Medicine" loading="lazy">
+                    <h3>Medicine</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/cos1.webp" alt="Cosmetics" loading="lazy">
+                    <h3>Cosmetics</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/cos2.webp" alt="Cosmetics" loading="lazy">
+                    <h3>Cosmetics</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/cos3.webp" alt="Cosmetics" loading="lazy">
+                    <h3>Cosmetics</h3>
+                </div>
+                <div class="box">
+                    <img src="imgs/cos4.jfif" alt="Cosmetics" loading="lazy">
+                    <h3>Cosmetics</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- end services section -->
+    <!-- start working time -->
+    <div class="timeLine" >
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">Working Time</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Days</h3>
+                        <p>From <span>Saturday </span> to <span>Thursday</span></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Hours</h3>
+                        <p>From <span>9</span> AM : <span>1</span> PM , from <span>5</span> PM : <span>10</span> PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end working time -->
+    <!-- start doctors -->
+    <div class="Staff">
+        <div class="container">
+            <h2 class="section-name">Staff</h2>
+            <div class="staff-box">
+                <div class="person-info">
+                    <img src="imgs/dr.jpg" alt="dr.Rashed" loading="lazy">
+                    <h4>Dr.Rashed</h4>
+                    <p>Pharmacy CEO</p>
+                    <p><span>Phone Number:</span><a href="https://wa.me/+968 123 123 123 ?text=Hello" target="_blank"> +968 123 123 123 </a><i class="fa-brands fa-whatsapp"></i></p>
+                </div>
+            </div>
+            <div class="staff-box">
+                <div class="person-info">
+                    <img src="imgs/dr.jpg" alt="dr.mahmoud" loading="lazy">
+                    <h4>Dr.Mahmoud Mohamed</h4>
+                    <p>Pharmacist </p>
+                    <p><span>Phone Number:</span><a href="https://wa.me/+968 123 123 123 ?text=Hello" target="_blank"> +968 123 123 123 </a><i class="fa-brands fa-whatsapp"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end staff -->
+    
+    <!-- start contact section -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="section-name">Contact</h2>
+            <div class="left">
+                <p class="phone"><i class="fa-solid fa-phone"></i> Phone Number :<span> +968 4016 1374 016</span>  <a href="https://wa.me/+968 123 123 123 ?text=Hello" target="_blank" class="whatsApp"> Send via WhatsApp </a> </p>
+                <p class="E-mail"><i class="fa-solid fa-envelope"></i> E-mail: <span> roadelhadra@gmail.com</span> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=roadelhadara@gmail.com&su=Your%20Subject&body=Your%20message%20here" target="_blank" class="email">Send Email via Gmail</a> </p>
+                <p class="address"><i class="fa-solid fa-location-dot"></i> Address:<span> Khabora,Oman</span> <a href="https://maps.app.goo.gl/T41ZHvG4EgrdnudX8" target="_blank" class="location">Location</a></p>
+                
+            </div>
+        </div>
+            
+    </div>
+    <!-- end contact section -->
+    <!-- start footer -->
+    <footer class="footer">This Page Created by <span>Issam Mohamed </span> &#169 2024</footer>
+    <!-- end footer -->
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+<!--  <div class="contact-info">
+                <p><i class="fa-solid fa-location-dot"></i><strong>Address:</strong> Khabora,Oman</p>
+                <p><i class="fa-solid fa-phone"></i><strong>Phone Number :</strong> +968 4016 1374 016</p>
+            </div> -->
